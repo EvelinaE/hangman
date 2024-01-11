@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hangman Game</title>
+	<link rel="stylesheet" href="hangman.css">
+</head>
+
+<body>
+	<div class="container">
+		<div id="message-card" class="hidden">
+			<h2 id="message-text"></h2>
+		</div>
+		<div id="tries-left">6</div>
+		<div id="word-lines"></div>
+		<!-- <div id="timer">0</div> -->
+	<form id="letter-form">
+		<div id="letter-tiles">
+			<div class="letter-tile" id="letter-A" data-letter="A">A</div>
+			<div class="letter-tile" id="letter-B" data-letter="B">B</div>
+			<div class="letter-tile" id="letter-C" data-letter="C">C</div>
+			<div class="letter-tile" id="letter-D" data-letter="D">D</div>
+			<div class="letter-tile" id="letter-E" data-letter="E">E</div>
+			<div class="letter-tile" id="letter-F" data-letter="F">F</div>
+			<div class="letter-tile" id="letter-G" data-letter="G">G</div>
+			<div class="letter-tile" id="letter-H" data-letter="H">H</div>
+			<div class="letter-tile" id="letter-I" data-letter="I">I</div>
+			<div class="letter-tile" id="letter-J" data-letter="J">J</div>
+			<div class="letter-tile" id="letter-K" data-letter="K">K</div>
+			<div class="letter-tile" id="letter-L" data-letter="L">L</div>
+			<div class="letter-tile" id="letter-M" data-letter="M">M</div>
+			<div class="letter-tile" id="letter-N" data-letter="N">N</div>
+			<div class="letter-tile" id="letter-O" data-letter="O">O</div>
+			<div class="letter-tile" id="letter-P" data-letter="P">P</div>
+			<div class="letter-tile" id="letter-Q" data-letter="Q">Q</div>
+			<div class="letter-tile" id="letter-R" data-letter="R">R</div>
+			<div class="letter-tile" id="letter-S" data-letter="S">S</div>
+			<div class="letter-tile" id="letter-T" data-letter="T">T</div>
+			<div class="letter-tile" id="letter-U" data-letter="U">U</div>
+			<div class="letter-tile" id="letter-V" data-letter="V">V</div>
+			<div class="letter-tile" id="letter-W" data-letter="W">W</div>
+			<div class="letter-tile" id="letter-X" data-letter="X">X</div>
+			<div class="letter-tile" id="letter-Y" data-letter="Y">Y</div>
+			<div class="letter-tile" id="letter-Z" data-letter="Z">Z</div>
+		</div>
+	</form>
+		<button id="newWordButton">New word</button>
+	</div>
+	<script src="hangman.js"></script>
+</body>
+
+</html>
